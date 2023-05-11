@@ -8,7 +8,8 @@ option.add_argument("-incognito")
 
 browser = webdriver.Chrome(executable_path='C:\Domain\Apps\chromedriver.exe', options=option)
 
-browser.get("https://docs.google.com/forms/d/e/1FAIpQLSceK7Hb9Qj5eZ6mn5DZZTED8z7kSNaufHvNgN6b5ZYCbq3Prg/viewform")
+#Link added in get to open the website you want to open
+browser.get("")
 
 for count_form in range(100):
 
